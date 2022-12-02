@@ -26,3 +26,6 @@ const userName = prompt('Come ti chiami');
 //Chiedere il cognome all'utente
 const userSurname = prompt('Qual è il tuo cognome');
 //console.log(userSurname);
+
+const userColor = prompt('Qual è il tuo colore preferito');
+//console.log(userColor);
