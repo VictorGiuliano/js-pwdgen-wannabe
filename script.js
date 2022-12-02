@@ -8,7 +8,7 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21*/
 3. Chiedere il nome all'utente
 4. Chiedere il cognome all'utente
 5. Chiedi colore preferito
-6. Operazione che unisce le stringhe di tutti i dati che abbiamo ottenuto 
+6. Operazione che unisce le stringhe di tutti i dati che abbiamo 
 7. Stampare la password su schermo */
 
 //Prendo elemento dal DOM
@@ -29,3 +29,7 @@ const userSurname = prompt('Qual è il tuo cognome');
 
 const userColor = prompt('Qual è il tuo colore preferito');
 //console.log(userColor);
+
+//Operazione per creare la password
+const password = userName + userSurname + userColor + rafforzo;
+//console.log(password); 
