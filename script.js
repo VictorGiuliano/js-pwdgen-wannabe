@@ -22,3 +22,7 @@ const rafforzo = '11';
 //Chiedere il nome all'utente
 const userName = prompt('Come ti chiami');
 //console.log(userName);
+
+//Chiedere il cognome all'utente
+const userSurname = prompt('Qual è il tuo cognome');
+//console.log(userSurname);
