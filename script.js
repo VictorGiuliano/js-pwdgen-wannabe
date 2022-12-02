@@ -12,11 +12,11 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21*/
 7. Stampare la password su schermo */
 
 //Prendo elemento dal DOM
-const targetElement = document.getElementById('psw');
+const pswElement = document.getElementById('psw');
 //console.log(targetElement);
 
 //Preparo la stringa contentente il numero 12
-const rafforzo = '11';
+const helper = '11';
 //console.log(rafforzo);
 
 //Chiedere il nome all'utente
@@ -31,5 +31,8 @@ const userColor = prompt('Qual è il tuo colore preferito');
 //console.log(userColor);
 
 //Operazione per creare la password
-const password = userName + userSurname + userColor + rafforzo;
+const password = userName + userSurname + userColor + helper;
 //console.log(password); 
+
+//Stampare risultato su schermo HTML
+pswElement.innerText = "La Password generata è :" + ' ' + password;
