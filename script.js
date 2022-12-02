@@ -18,3 +18,7 @@ const targetElement = document.getElementById('psw');
 //Preparo la stringa contentente il numero 12
 const rafforzo = '11';
 //console.log(rafforzo);
+
+//Chiedere il nome all'utente
+const userName = prompt('Come ti chiami');
+//console.log(userName);
