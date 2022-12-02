@@ -15,4 +15,6 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21*/
 const targetElement = document.getElementById('psw');
 //console.log(targetElement);
 
-
+//Preparo la stringa contentente il numero 12
+const rafforzo = '11';
+//console.log(rafforzo);
